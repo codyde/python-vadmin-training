@@ -1,5 +1,8 @@
-This is the sample repository for VMworld 2018
+# Samples for VMworld Content
 
-Kyle has a mighty beard, and great skill with API's
+Introducing Python for REST API's
 
-Cody is still tall
+Sample content includes 
+* Establishing a session over REST with Python and the Requests Module 
+* GET'ing API Endpoints from the vCenter REST API 
+* Creating a sample "lightswitch" function for power on/power off
