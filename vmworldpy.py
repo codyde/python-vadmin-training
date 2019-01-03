@@ -48,7 +48,7 @@ def deletevm(vmname):
             print("Power State Data is as follows "+pstate.json()['value']['state'])
             if pstate.json()['value']['state'] == 'POWERED_OFF':
                 state = requests.delete(f'vcenterhere/rest/vcenter/vm/{id}', headers={'vmware-api-session-id':sid}, verify=False)
-                print("Starting VM")
+                print("Deleting VM")
                 return state.status_code
             else:
                 state = requests.post(f'vcenterhere/rest/vcenter/vm/{id}/power/stop', headers={'vmware-api-session-id':sid}, verify=False)
