@@ -8,9 +8,9 @@ session.verify = False
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Environmental Input
-server = 'vcsa01.corp.local'
+server = 'hlcorevc01.humblelab.com'
 username = 'administrator@vsphere.local'
-password = ''
+password = os.environ.get('vcpass')
 
 # Connect to the vCenter Server
 client = create_vsphere_client(server = server, username = username, password = password, session = session)
@@ -40,7 +40,7 @@ vmSpec.name = 'CODE2219U'
 # Create VM Placement Specification
 placementSpec = VM.PlacementSpec()
 
-placementSpec
+#placementSpec
 placementSpec.resource_pool = 'resgroup-8'
 placementSpec.datastore = 'datastore-13'
 placementSpec.folder = 'group-v9'
