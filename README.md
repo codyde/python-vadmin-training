@@ -1,8 +1,8 @@
-# Samples for VMworld Content
+# Python 101 for the VMware Admin
 
-Introducing Python for REST API's
+Sample content for Kyle Ruddy and Cody De Arkland introductory Python session.
 
-Sample content includes 
-* Establishing a session over REST with Python and the Requests Module 
-* GET'ing API Endpoints from the vCenter REST API 
-* Creating a sample "lightswitch" function for power on/power off
+## Included Files
+
+*vmworld.py* - Collection of functions used to demonstrate connecting to vCenter, powering on/off VMs, etc... 
+*vmworldSDKusage.py* - Collection of REST samples for the vSphere Python REST SDK
