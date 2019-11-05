@@ -9,9 +9,9 @@ session.verify = False
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Environmental Input
-server = 'hlcorevc01.humblelab.com'
-username = 'administrator@vsphere.local'
-password = os.environ.get('vcpass')
+server = os.environ.get('vcenter')
+username = os.environ.get('username')
+password = os.environ.get('password')
 
 # Connect to the vCenter Server
 client = create_vsphere_client(server = server, username = username, password = password, session = session)
