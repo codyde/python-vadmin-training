@@ -26,4 +26,6 @@ Module driven approach to learning the basics of Python for REST API's. Begins w
 
 [Kyle Ruddy](https://twitter.com/kmruddy)
 
+### Special Thanks
+
 [Grant Orchard](https://twitter.com/grantorchard) - Content from previous training class was merged into this repository
