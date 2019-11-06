@@ -17,3 +17,11 @@ Module driven approach to learning the basics of Python for REST API's. Begins w
 **Module 6 - vCenter Connectivity** - Connect to vCenter and perform basic REST calls
 
 **Module 7 - vCenter Python REST SDK** - Leverage the Python REST SDK to simplify your interactions
+
+---
+
+## Credits
+
+[Cody De Arkland](https://twitter.com/codydearkland)
+[Kyle Ruddy](https://twitter.com/kmruddy)
+[Grant Orchard](https://twitter.com/grantorchard) - Content from previous training class was merged into this repository
